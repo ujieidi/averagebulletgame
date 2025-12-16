@@ -1,0 +1,26 @@
+body {
+    background: #111;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+    touch-action: none;
+    color: white;
+    font-family: sans-serif;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+canvas {
+    background: #000;
+    border: 2px solid #444;
+    display: block;
+}
+
+#hint {
+    margin-bottom: 6px;
+    font-size: 14px;
+    text-align: center;
+}
